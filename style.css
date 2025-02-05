@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Asset/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    width: 1396px;
+    height: 528px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding-top: 76px;
+    border-radius: 60px;
+    border: 2px solid #FFF;
+    background: rgba(221, 229, 255, 0.50);
+    backdrop-filter: blur(75px);
+}
+
+.box h1 {
+    color: #000C25;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.box .timer {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.box .timer .container {
+    display: flex;
+    width: 252px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(245, 247, 255, 0.80) 0%, rgba(214, 220, 255, 0.80) 100%);
+    flex-direction: column;
+}
+
+.box .timer .container h1 {
+    color: #000C25;
+    text-align: center;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.box .timer .container p {
+    color: #000C25;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Common */
+
+.logo {
+    position: absolute;
+    top: 62px;
+    left: 80px;
+}
+
+footer {
+    position: absolute;
+    bottom: 62px;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+footer .line {
+    width: 160px;
+    height: 2px;
+    border-radius: 17px;
+    background: #FFF;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+}
+
+footer span {
+    font-family: "Amiri", serif;
+}
